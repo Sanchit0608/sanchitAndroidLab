@@ -3,4 +3,5 @@
     <string name="app_name">SanchitsAndroidlab</string>
     <string name="hello_message">" नमस्ते दुनिया"</string>
     <string name="button_message">" मैं एक बटन हूँ"</string>
+    <string name="Switch"/>
 </resources>

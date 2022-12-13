@@ -2,4 +2,6 @@
     <string name="app_name">SanchitsAndroidlab</string>
     <string name="hello_message">Hello World!</string>
     <string name="button_message">I\'m a button</string>
+    <string name="imageButton">button</string>
+    <string name="Switch" translatable="false" />
 </resources>

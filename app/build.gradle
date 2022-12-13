@@ -3,7 +3,11 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 30
+
+    buildFeatures {
+        viewBinding true
+    }
 
     defaultConfig {
         applicationId "algonquin.cst2335.sanchitsandroidlab"
