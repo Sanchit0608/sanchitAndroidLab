@@ -3,4 +3,8 @@
     <string name="app_name">SanchitsAndroidlab</string>
     <string name="hello_message">" नमस्ते दुनिया"</string>
     <string name="button_message">" मैं एक बटन हूँ"</string>
+    <string name="button1"> बटन 1 </string>
+    <string name="button2"> बटन 2 </string>
+    <string name="button3" > बटन 3 </string>
+    <string name="spin_message">स्पिन फ्लैग</string>
 </resources>
