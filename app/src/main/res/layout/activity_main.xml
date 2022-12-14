@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <EditText
@@ -17,9 +20,9 @@
         android:background="@null"
         android:inputType="textPersonName|textCapWords"
         android:textAlignment="center"
-        android:layout_constraintEnd_toEndOf="parent"
-        android:layout_constraintStart_toStartOf="parent"
-        android:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -30,10 +33,10 @@
         android:layout_weight="1"
         android:contentDescription="Click Here"
         android:orientation="horizontal"
-        android:layout_constraintEnd_toEndOf="parent"
-        android:layout_constraintStart_toStartOf="parent"
-        android:layout_constraintTop_toTopOf="parent"
-        android:srcCompat="@drawable/flag" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flag" />
 
     <TextView
         android:layout_width="match_parent"
@@ -43,7 +46,7 @@
         android:orientation="horizontal"
         android:text="Lab 2 GUI"
         android:textSize="34sp"
-        android:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/Switch"
@@ -54,11 +57,11 @@
         android:layout_weight="1"
         android:orientation="horizontal"
         android:text="@string/Switch"
-        android:layout_constraintEnd_toEndOf="parent"
-        android:layout_constraintHorizontal_bias="1.0"
-        android:layout_constraintRight_toLeftOf="@+id/button"
-        android:layout_constraintStart_toStartOf="parent"
-        android:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintRight_toLeftOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
@@ -68,10 +71,11 @@
         android:layout_marginTop="372dp"
         android:layout_weight="1"
         android:orientation="horizontal"
-        android:text="@string/button_message"
-        android:layout_constraintEnd_toEndOf="parent"
-        android:layout_constraintHorizontal_bias="0.0"
-        android:layout_constraintLeft_toRightOf="@+id/Switch"
-        android:layout_constraintStart_toStartOf="parent"
-        android:layout_constraintTop_toTopOf="parent" />
-</LinearLayout>
+        android:text="@string/ButtonText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/Switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

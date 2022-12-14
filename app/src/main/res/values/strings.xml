@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">SanchitsAndroidlab</string>
+    <string name="app_name" translatable="false">SanchitsAndroidlab</string>
     <string name="hello_message">Hello World!</string>
     <string name="button_message">I\'m a button</string>
-    <string name="imageButton">button</string>
-    <string name="Switch" translatable="false" />
+    <string name="editmessage">I\'m an EditText</string>
+    <string name="hinttext">Write something here</string>
+    <string name="checkbox_message">Do you drink coffee?</string>
+    <string name="switch_message">Do you drink coffee?</string>
+    <string name="radio_message">Do you drink coffee?</string>
 </resources>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SanchitsAndroidlab</string>
-    <string name="hello_message">" नमस्ते दुनिया"</string>
-    <string name="button_message">" मैं एक बटन हूँ"</string>
-    <string name="Switch"/>
+    <string name="hello_message">Namaste duniya!</string>
+    <string name="button_message">Mai ek button hu</string>
+    <string name="editmessage">mai ek EditText hu</string>
+    <string name="hinttext">Kuch likhein</string>
+    <string name="checkbox_message">Coffee peena chahte ho?</string>
+    <string name="switch_message">Coffee peena chahte ho?</string>
+    <string name="radio_message">Coffee peena chahte ho?</string>
 </resources>
