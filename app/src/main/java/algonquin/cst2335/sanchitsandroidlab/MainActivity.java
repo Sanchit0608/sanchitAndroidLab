@@ -9,6 +9,9 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import algonquin.cst2335.sanchitsandroidlab.ProfileActivity;
+import algonquin.cst2335.sanchitsandroidlab.R;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText editText;
