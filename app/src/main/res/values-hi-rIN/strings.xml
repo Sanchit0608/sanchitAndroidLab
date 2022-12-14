@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources>
-    <string name="app_name">SanchitsAndroidlab</string>
-    <string name="hello_message">" नमस्ते दुनिया"</string>
-    <string name="button_message">" मैं एक बटन हूँ"</string>
-    <string name="button1"> बटन 1 </string>
-    <string name="button2"> बटन 2 </string>
-    <string name="button3" > बटन 3 </string>
-    <string name="spin_message">स्पिन फ्लैग</string>
+    <string name="app_name">मेरा अनुप्रयोग</string>
+    <string name="EditText">अपना ईमेल पता दर्ज करें</string>
+    <string name="ButtonText">यहाँ क्लिक करें</string>
+    <string name="MakeChoice" />
+    <string name="delete" />
+    <string name="yes" />
+    <string name="no" />
+    <string name="ID_here_frag" />
+    <string name="hello_message" />
+    <string name="CheckBox" />
+    <string name="Switch" />
+
+
 </resources>

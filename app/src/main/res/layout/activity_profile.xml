@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatRoomActivity">
+
+    <TextView
+        android:id="@+id/Textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Your Profile"
+        app:layout_constraintBottom_toTopOf="@+id/Textview2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        app:layout_constraintBottom_toTopOf="@+id/edittext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Textview1"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        app:layout_constraintBottom_toTopOf="@+id/Textview3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Textview2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Mail"
+        app:layout_constraintBottom_toTopOf="@+id/edittext2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittext"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Mail"
+        app:layout_constraintBottom_toTopOf="@+id/Textview4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Textview3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Textview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Picture"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittext2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/picture_frame"
+        app:layout_constraintBottom_toTopOf="@+id/Textview5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Textview4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Textview5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click the button above to take a picture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="395dp"
+        android:layout_height="42dp"
+        android:text="Go to chat"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="732dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

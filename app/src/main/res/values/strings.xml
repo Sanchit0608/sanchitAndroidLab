@@ -1,9 +1,16 @@
 <resources>
-    <string name="app_name">SanchitsAndroidlab</string>
-    <string name="hello_message">Hello World!</string>
-    <string name="button_message">I\'m a button</string>
-    <string name="button1"> BUTTON 1 </string>
-    <string name="button2"> BUTTON 2 </string>
-    <string name="button3" > BUTTON 3 </string>
-    <string name="spin_message">Spin flag</string>
+    <string name="app_name">My Application</string>
+    <string name="EditText"> Enter Your Email Address </string>
+    <string name="ButtonText">Login</string>
+    <string name="MakeChoice" />
+    <string name="delete" />
+    <string name="yes" />
+    <string name="no" />
+    <string name="ID_here_frag" />
+    <string name="hello_message" />
+    <string name="CheckBox" />
+    <string name="Switch" />
+
+    5
+
 </resources>
